@@ -16,19 +16,16 @@ header {
     padding-bottom: 5px;
     position: sticky;
     z-index: 9999;
-    height: 70px;
 }
 
 header h2 {
     color: white;
     font-weight: 700;
     font-size: 20px;
-    margin-top: 19px;
 }
 
 nav {
     padding-top: 10px;
-    color: white;
 }
 
 nav button {
@@ -45,10 +42,6 @@ nav a {
 
 nav a:hover {
     color: #1abc9c;
-}
-
-nav li {
-    padding-top: 10px;
 }
 
 /* JUMBOTRON */
@@ -165,4 +158,65 @@ h3 {
     font-size: 18px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.downloadbutton {
+    font-size: 18px;
+    color: white;
+    background-color: #1abc9c;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 18px 30px;
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    header h2 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    header a {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    nav {
+        padding-top: 25px;
+    }
+
+    .jumbotron h2 {
+        font-size: 60px;
+    }
+
+    .jumbotron h4 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+
+    .ms--star::before,
+    .ms--star::after {
+        width: 150px;
+        height: 4px;
+        bottom: 20px;
+    }
+
+    .ms--star span {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer i {
+        font-size: 15px;
+        padding: 10px;
+    }
 }
