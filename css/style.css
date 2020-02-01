@@ -50,3 +50,47 @@ nav a:hover {
 nav li {
     padding-top: 10px;
 }
+
+/* JUMBOTRON */
+
+.jumbotron {
+    margin-bottom: 0;
+    background-color: #1abc9c;
+}
+
+.jumbotron img {
+    width: 240px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.jumbotron h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.jumbotron h4 {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 18px;
+}
+
+.ms--star::before,
+.ms--star::after {
+    content: '';
+    display: inline-block;
+    width: 100px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    bottom: 15px;
+}
+
+.ms--star span {
+    font-size: 35px;
+    padding: 0 20px;
+    color: white;
+}
