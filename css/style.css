@@ -88,7 +88,7 @@ nav a:hover {
     color: white;
 }
 
-/* THIRD SECTION */
+/* PORTFOLIO */
 
 .portfolio .ms--star::before,
 .portfolio .ms--star::after {
@@ -161,6 +161,53 @@ h3 {
 }
 
 .downloadbutton {
+    font-size: 18px;
+    color: white;
+    background-color: #1abc9c;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 18px 30px;
+    margin-bottom: 100px;
+}
+
+/* CONTACT ME */
+
+.contactme .ms--star::before,
+.contactme .ms--star::after {
+    background-color: #2c3e50;
+}
+
+.contactme .glyphicon-star {
+    color: #2c3e50;
+}
+
+.form-input {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.form-input::placeholder,
+textarea {
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+textarea {
+    resize: none;
+}
+
+form button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contactbutton {
     font-size: 18px;
     color: white;
     background-color: #1abc9c;
